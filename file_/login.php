@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   
 
 ?>
-<?php include'./_parsials/_template/header.php';?>
+
 <?php if (isset($error)): ?>
     <div class="alert alert-danger" role="alert">
       <?php echo $error; ?>
@@ -90,3 +90,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
     </div>
    
+ 
